@@ -1,0 +1,20 @@
+server:
+   port: 9090
+   session:
+    cookie:
+      name: TIME__SESSIONID
+
+spring:
+  properties:
+    show-sql: true
+          
+logging.level:
+  root: info
+  org.springframework:
+    web: info
+    security: info
+    boot: info
+  org.hibernate:
+    SQL: debug
+  com.stones: debug
+ 
